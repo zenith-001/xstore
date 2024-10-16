@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i,800,800i&display=swap");
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#232338;
+}
+
+form{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: #202030;
+    box-shadow: 5px 5px 12px #101030 ;
+    padding: 22px;
+    border-radius: 12px;
+    width: 320px;
+}
+
+form .title img{
+    height: 40px;
+    transform: translate(0,10px);
+}
+
+form .title {
+    font-family: poppins;
+    font-size:32px;
+    font-weight: bolder;
+    color:white;
+    margin:22px;
+    margin-top:0;
+    user-select: none;
+}
+
+form input{
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+    font-family: poppins;
+    font-size: 15px;
+    border:1px solid #ccccee;
+    border-radius: 3px;
+    background: #454565;
+}
+
+form button{
+    color:#ccccee;
+    padding:7px;
+    background:#454565;
+    border:1px solid #ccccee;
+    cursor: pointer;
+    width: 102%;
+    transition: .3s;
+}
+
+form input::-webkit-input-placeholder{
+    color:#ccccee;
+}
+
+form button:hover{
+    box-shadow: 5px 5px 12px#383855 ;
+}
+
+.status{
+ font-family: poppins;
+ margin-top:23px;
+ font-weight: bold;
+}
+
+.status.p{
+    color:#447844;
+}
+
+.status.n{
+    color:#784444;
+
+}

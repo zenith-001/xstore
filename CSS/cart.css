@@ -1,0 +1,195 @@
+.lower .wrapper{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 15px;
+    /* background-color: red; */
+    width: 95%;
+    padding-top: 15px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 15px;
+}
+.lower .wrapper .left{
+    width: 50%;
+    flex-grow: 1;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.lower .wrapper .left .top{
+    border-radius: 7px;
+    background-color: #1d1d2b;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.lower .wrapper .left .topleft{
+    font-family: "poppins",sans-serif;
+    font-size: 15px;
+    flex-grow: 1;
+    margin-top: 7px;
+}
+.lower .wrapper .left .topright{
+    font-family: "poppins",sans-serif;
+    color: #fff;
+}
+.lower .wrapper .left .topright .delete{
+    border: none;
+    background-color:transparent;
+    padding: 10px;
+    color: #fff;
+    word-spacing: 5px;
+    cursor: pointer;
+    font-family: "poppins";
+    text-transform: uppercase;letter-spacing: 1.5px;
+    border-radius: 5px;
+}
+.lower .wrapper .left .topright .delete:hover{
+    background-color: #ffffff1a;
+
+}
+
+.lower .wrapper .left .bottom{
+    background-color: #1d1d2b;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.lower .wrapper .left .bottom .card{
+    display: flex;
+    gap: 20px;
+    min-height: 80px;
+    background-color: #1d1d2b;
+    padding: 10px;
+}
+.lower .wrapper .left .bottom .card .imgDiv{
+    width: 15%;
+    max-width: 25%;
+    height: 100%;
+    flex-grow: 1;
+    background-color: blue;
+}
+.lower .wrapper .left .bottom .card .imgDiv img{
+    width: 100%;
+    height: 100%;
+    /* height: 250px; */
+    object-fit: cover;
+}
+.lower .wrapper .left .bottom .card .info{
+    width: 50%;
+    color: #fff;
+    font-family: calibri,sans-serif;
+    flex-grow: 1;
+    /* background-color: red; */
+}
+.lower .wrapper .left .bottom .card .info .name{
+    margin-top: 0;
+    font-size: 18px;
+}
+.lower .wrapper .left .bottom .card .info .other{
+    margin-top: -15px;
+    color: #ffffff86;
+}
+.lower .wrapper .left .bottom .card .info .price{
+    font-size: 20px;
+    margin-top: -10px;
+}
+.lower .wrapper .left .bottom .card .cardright p{
+    color:#fff;
+    font-family: "poppins";
+    margin-top: 0px;
+    text-align: center;
+
+}
+.lower .wrapper .left .bottom .card .cardright .inputdiv{
+    display: flex;
+}
+.lower .wrapper .left .bottom .card .cardright .inputdiv button{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background-color: #ffffff13;
+    font-family: calibri;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.lower .wrapper .left .bottom .card .cardright .inputdiv input{
+    width:50px;
+    background-color: #16161f;
+    border: none;
+    color: #fff;
+    text-align: center;
+}
+.lower .wrapper .left .bottom .card .cardright .inputdiv input:focus{
+    outline: none;
+}
+.lower .wrapper .left .bottom .card .cardright .delete{
+    color: #ffffffec;
+    font-size: 15px;
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+.lower .wrapper .right{
+    background-color: #161620;
+    width: 40%;
+    color: #fff;
+    font-family: "poppins",sans-serif;
+    padding: 20px;
+}
+.lower .wrapper .right .title{
+    margin-top:-5px;
+}
+.lower .wrapper .right .subtotal{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: -8px;
+    color: #ffffff71;
+    margin-top: -15px;
+}
+.lower .wrapper .right .shipfee {
+    margin-top: -20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff71;
+}
+.lower .wrapper .right .cost{
+    font-size: 14px;
+    /* margin-top: 1px; */
+}
+.lower .wrapper .right .total{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: -8px;
+    margin-top: -20px;
+}
+.lower .wrapper .right .total .txt{
+    font-size: 18px;
+}
+.lower .wrapper .right .total .cost{
+    margin-top: 25px;
+}
+.lower .wrapper .right .checkout{
+    border: none;
+    color: #fff;
+    background-color:#13131a;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    width: 100%;
+    font-family: "poppins",sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

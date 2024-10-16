@@ -1,0 +1,147 @@
+body {
+  background: #101013;
+}
+
+.left-portion {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 19vw;
+  background: #161620;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.right-portion {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 81vw;
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+  /* padding: 10px; */
+}
+
+.right-portion .nav {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  right: 20px;
+}
+.nav .lab {
+  font-size: 30px;
+  float: left;
+  margin-left: 50px;
+  font-family: poppins;
+  color: #eee;
+  font-weight: bolder;
+}
+
+.nav .righter{
+    float: right;
+}
+
+.right-portion .nav .item {
+  display: inline-block;
+  font-size: 24px;
+  color: rgb(78, 78, 180);
+  cursor: pointer;
+  margin: 6px;
+}
+
+.right-portion .nav .item img {
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+}
+
+.right-portion .nav .item-- {
+  width: fit-content;
+}
+
+.right-portion .nav .item-- * {
+  display: inline-block;
+  font-family: poppins;
+}
+
+.right-portion .nav .item .m {
+  font-size: 13px;
+  color: #eee;
+  display: block;
+  font-weight: bold;
+}
+.right-portion .nav .item .s {
+  font-size: 7px;
+  color: #ccc;
+  display: block;
+}
+
+.logo {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.item_ {
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
+  color: #ccbbaa;
+  cursor: pointer;
+  user-select: none;
+  font-family: poppins;
+  transition: .3s;
+}
+
+.item_:hover{
+    color: #fff;
+    border-radius: 20px;
+    transform: scale(1.15);
+}
+
+/* .item_:has(+.item_:hover), .item_:hover + .item_{
+  transform: scale(1.08);
+
+} */
+
+.item_.active {
+  color: white;
+  z-index: 15;
+}
+
+.item_:nth-last-child(1) {
+  color: rgb(172, 172, 172);
+  position: absolute;
+  top: 90%;
+  left: 43%;
+  transform: translate(-50%,0%);
+}
+.pointer {
+  height: 15px;
+  width: 90%;
+  background: #202050;
+  position: relative;
+  left: 50%;
+  top: 41px;
+  z-index: -1;
+  padding: 10px;
+  border-radius: 15px;
+  transform: translate(-50%, 0);
+  transition: 0.3s;
+}
+
+.iframe_ {
+  height: 90vh;
+  width: 98%;
+  /* border: 2px solid red; */
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+/* 
+.right-portion{
+  background: red;
+} */

@@ -1,0 +1,78 @@
+body{
+    background-color: #13131a;
+}
+.topnav{
+    height: 55px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    background-color:#16161f;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.topnav .logo{
+    height: 50px;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+.topnav .logo img{
+    height: 50px;
+}
+.topnav .logo p{
+    font-family:"poppins";
+    color: #fff;
+    margin-left: 10px;
+    font-size: 24px;
+}
+.topnav .right{
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    /* top: 0px; */
+    right: 5%;    
+}
+.topnav .right .navItem{
+    text-decoration: none;
+    color: #fff;
+    font-family: "poppins";
+    margin-top: 10px;
+}
+.topnav .right .search{
+    display: flex;
+    height: 45px;
+    width: fit-content;
+}
+.topnav .right .search input{
+    font-family: "poppins",sans-serif;
+    padding-left: 15px;
+    border: none;
+    background-color: #1a1a27;
+    color: #fff;
+    width:180px;
+}
+.topnav .right .search input:focus{
+    outline: none;
+    border: none;
+}
+.topnav .right .search button{
+    border: none;
+    height:45px;
+    width: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    background-color: #1e1e31;
+    color: #fff;
+}
+.lower{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 105px;
+    /* background-color: red; */
+}

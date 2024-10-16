@@ -1,0 +1,110 @@
+* {
+  font-family: poppins;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  background: rgb(47, 47, 71);
+  border-radius: 20px;
+  width: 7px;
+  text-align: center;
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgb(25, 25, 54);
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.x i {
+  font-size: 190px;
+  color: #557;
+}
+
+h1 {
+  color: #668;
+  margin-left: 30px;
+}
+
+.x h3 {
+  color: #446;
+}
+
+.top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 3px;
+  width: 98vw;
+}
+
+.top *{
+  display: inline-block;
+}
+
+.top .right{
+  float: right;
+  font-size: 30px;
+  color: #446;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+.top .right .fa-bell::after{
+  content: '1';
+  display: block;
+  height: 10px;
+  width: 10px;
+  text-align: center;
+  padding: 3px;
+  background: rgb(165, 165, 255);
+  color: #335;
+  border-radius: 50%;
+  font-size: 9px;
+  position: absolute;
+  top: 32px;
+  cursor: pointer;
+  right:35px;
+}
+
+.top .right .fa-bell{
+  cursor: pointer;
+}
+
+.main{
+  position: absolute;
+  top: 20%;
+  left: 0;
+  margin-bottom: 3px;
+  width: 98vw;  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .card{
+  height: fit-content;
+  min-height: 100px;
+  background: #222241;
+  border-radius: 12px;
+  margin: 10px;
+  cursor: pointer;
+  color: #aaaaff;
+  padding: 4px 20px;
+  width:calc(200%/5);
+}
+
+.main .card h2{
+  font-size: 21px;
+  cursor: text;
+}
+
+.main .card h2 i{
+  margin-right: 4px;
+}
+
+.card.long{
+  width: calc(85%);
+  /* display: block; */
+  height: 100px;
+  /* flex: none; */
+}

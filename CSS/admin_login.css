@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url('../images/admin_login.jpg');
+}
+
+.layer{
+    backdrop-filter: blur(23px);
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #0008;
+}
+
+form{
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.501);
+    padding: 20px;
+    border-radius: 13px;
+    /* backdrop-filter: blur(10px); */
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+form input{
+    padding: 10px;
+    border-radius: 7px;
+    border: 0;
+    background: #c17d3a;
+    color:white;
+    font-size: 19px;
+}
+
+
+form input::placeholder{
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+form input[type=submit]{
+    cursor: pointer;
+    width: 100%;
+}
+
+.eye{
+    position: absolute;
+    top: 56.4%;
+    right: 12%;
+    cursor: pointer;
+}

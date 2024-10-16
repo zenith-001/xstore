@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&display=swap");
+.desc {
+  font-family: poppins;
+  color: #b1ccfc;
+  margin-left: 25px;
+}
+table ,table *{
+    border: none;
+    margin: 0;
+}
+
+table th {
+  background: #424294;
+  padding: 15px;
+  font-family: poppins;
+  font-weight: bold;
+  color: white;
+}
+
+table th:first-child {
+  border-top-left-radius: 20px;
+}
+
+table th:last-child {
+  border-top-right-radius: 20px;
+}
+
+
+tr:nth-last-child(1) td:last-child {
+  border-bottom-right-radius: 20px;
+}
+
+table td {
+  background-color: #7777ee;
+  /* border: 1px solid purple; */
+  /* box-sizing: border-box; */
+  padding: 15px;
+  max-width: 200px;
+  word-wrap: break-word;
+  overflow: hidden;
+  font-family: poppins;
+  white-space: nowrap;
+}
+
+table button {
+  color: white;
+  font-family: poppins;
+  border-radius: 10px;
+  padding: 8px;
+  border: 0;
+  cursor: pointer;
+}
+
+.show {
+  background: #3c4f7b;
+  transition: 0.3s;
+}
+
+.show:hover {
+  background: #5d74a9;
+}
+.del {
+  background: rgb(226, 57, 57);
+  transition: 0.3s;
+}
+
+.del:hover {
+  background: rgb(218, 101, 101);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: rgb(47, 47, 71);
+  border-radius: 20px;
+  width: 7px;
+  border:none;
+  text-align: center;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(25, 25, 54);
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+
+.edit{
+    background: #224422;
+}
+
+.save{
+    background: #224422;
+}
+
+.view {
+  background: #3c4f7b;
+  transition: 0.3s;
+}
+
+.view:hover {
+  background: #5d74a9;
+}
